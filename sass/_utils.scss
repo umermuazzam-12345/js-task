@@ -1,0 +1,223 @@
+// MAIN COLORS
+$primary-color: #5d50c6;
+$secondary-color: #f85e9f;
+$tertiary-color-1: #ff5722;
+$tertiary-color-2: #facd49;
+$grey-light: #19182580;
+$grey-dark: #222831;
+$white-color: #eeeeee;
+
+.text-prim {
+  color: #54bd95;
+}
+.bg-prim {
+  background-color: #54bd95;
+}
+.text-gray {
+  color: #a6a6a6;
+}
+.bg-gray {
+  background-color: #a6a6a6;
+}
+.text-dark {
+  color: #191a15;
+}
+
+.bg-blue {
+  background-color: #0f8ce9;
+}
+
+.pd {
+  padding: 2.5rem 7.5rem;
+  @include huge {
+    padding: 2.5rem 6.5rem;
+  }
+  @include xxxl {
+    padding: 2.5rem 5.5rem;
+  }
+  @include xxl {
+    padding: 2rem 4.5rem;
+  }
+  @include xl {
+    padding: 1.6rem 3.5rem;
+  }
+  @include lg {
+    padding: 1.6rem 2.2rem;
+  }
+  @include sm {
+    padding: 1.6rem 2rem;
+  }
+}
+
+.mb {
+  margin-bottom: 3.5rem;
+  @include huge {
+    margin-bottom: 2.5rem;
+  }
+  @include xxxl {
+    margin-bottom: 2rem;
+  }
+  @include xxl {
+    margin-bottom: 1rem;
+  }
+}
+.h-primary {
+  font-size: 4rem;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 5rem;
+  color: #191a15;
+  @include huge {
+    font-size: 3.5rem;
+    line-height: normal;
+  }
+  @include xxxl {
+    font-size: 3rem;
+  }
+  @include xxl {
+    font-size: 2.5rem;
+  }
+  @include xl {
+    font-size: 2rem;
+  }
+  @include sm {
+    font-size: 1.7rem;
+  }
+}
+
+.h-secondary {
+  font-size: 2.5rem;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: normal;
+  font-style: normal;
+  color: #191a15;
+  @include huge {
+    font-size: 2.1rem;
+  }
+  @include xxxl {
+    font-size: 1.8rem;
+  }
+  @include xxl {
+    font-size: 1.7rem;
+  }
+}
+.h-tertiary {
+  font-size: 2rem;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  color: #191a15;
+  font-style: normal;
+  @include huge {
+    font-size: 1.8rem;
+  }
+  @include xxxl {
+    font-size: 1.6rem;
+  }
+  @include xxl {
+    font-size: 1.4rem;
+  }
+}
+
+.title-1 {
+  color: #191a15;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  @include huge {
+    font-size: 1.3rem;
+  }
+  @include xxxl {
+    font-size: 1.2rem;
+  }
+  @include xxl {
+    font-size: 1.1rem;
+  }
+}
+.title-2 {
+  color: #191a15;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-style: normal;
+}
+.title-3 {
+  color: #191a15;
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  @include huge {
+    font-size: 0.9rem;
+  }
+  @include xxxl {
+    font-size: 0.85rem;
+  }
+}
+.title-4 {
+  color: #000;
+  font-size: 0.95rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.title-5 {
+  color: #191a15;
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  @include huge {
+    font-size: 0.9rem;
+  }
+  @include xxxl {
+    font-size: 0.85rem;
+  }
+}
+
+.desc-1 {
+  color: #000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  @include huge {
+    font-size: 0.9rem;
+  }
+  @include xxxl {
+    font-size: 0.85rem;
+  }
+  @include xxxl {
+    font-size: 0.8rem;
+  }
+}
+.desc-2 {
+  color: #a6a6a6;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.875rem;
+  @include huge {
+    font-size: 0.85rem;
+  }
+  @include xxxl {
+    font-size: 0.8rem;
+  }
+}
+
+.desc-3 {
+  color: #a6a6a6;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.desc-4 {
+  color: #a6a6a6;
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
